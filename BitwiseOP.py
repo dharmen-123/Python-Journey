@@ -77,7 +77,8 @@ print(x^y)
 #swap other method
 
 # x,y=y,x
-n1=10
+
+"""n1=10
 n2=20
 n1,n2=n2,n1
-print(n1,n2)
+print(n1,n2)"""
