@@ -19,4 +19,14 @@ str = "Python"
 # print(str[:-1])         
 # print(str[:-1:])         
 # print(str[1:6:2]) 
-print(str.index('t'))        
+# print(str.index('t'))
+# print(str.index('th'))
+
+lst = [ ]
+lst.append(10)
+print(lst)
+lst.pop(0)
+lst.append((10 ,20 ,30 ,40))
+print(lst[0])
+
+# set and frozen set are the Unordered collection
