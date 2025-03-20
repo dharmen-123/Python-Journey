@@ -2,10 +2,11 @@
 # It is apply on ordered collection
 # COLLECTION 
 # ordered collection and Unordered collection 
+# ordered collection {
 # String 
 # list
 # tuple
-    
+# }
     #  STRING 
 # +ve                                   -ve 
 # start with -1                    start with 0
