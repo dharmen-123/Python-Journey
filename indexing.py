@@ -2,9 +2,9 @@
 lst=[228,33.33,'A',"dharmendra"]
 tpl=(98,'D',"dharmendra",9.87)
 
-print(lst.index(228))
-print(tpl[2])
-print(lst[2])
+# print(lst.index(228))
+# print(tpl[2])
+# print(lst[2])
 
        #######SLICING IN PYTHON#######
 
@@ -16,3 +16,8 @@ print(lst[2])
 # 2 checkout start and stop direction
 # 3 if both direction are same i.e we get same output but if direction are opposite i.e we always get empty output
 
+s="Dharmendra"
+# print(len(s))
+print(s[0:11])
+print(s[::-1])
+print(s[1:11:3])
