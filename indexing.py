@@ -6,6 +6,16 @@ tpl=(98,'D',"dharmendra",9.87)
 # print(tpl[2])
 # print(lst[2])
 
+# SYNTAX 2 OF INDEXING
+# Collection.index(object , start , stop)
+l1=[10,20,30,10,5,20,30,5]
+print(l1.index(10,1))
+# print(l1.index(10,1,3))
+s="Dharmendra"
+sl=slice(1,4)
+print(s[sl])
+
+
        #######SLICING IN PYTHON#######
 
 # syntax  collection[start point: stop point : (step/direction/jump)]
@@ -65,8 +75,8 @@ lst2= [(1, 'apple'), (2, 'banana'), (3, 'cherry'), (4, 'date')]
 st="I LOVE PYTHON"
 st1 =st.lower()
 # print(st1[::-1][::2][1:7][::-1])    
-st2="i am dharmendra chilhate"
-print(st2.title())
-print(st2.capitalize())
-print(st2.upper())
-print(st2.swapcase())
+# st2="i am dharmendra chilhate"
+# print(st2.title())
+# print(st2.capitalize())
+# print(st2.upper())
+# print(st2.swapcase())
