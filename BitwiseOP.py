@@ -39,13 +39,12 @@
 #Comments in Python
 # 1 .single line Comments
 # 2. multi line comments
-
-''' 
+"""
 this htjdjncdnkejnd
 edec
 edc
-edc
-'''
+edc"""
+
 
 """
 x=10

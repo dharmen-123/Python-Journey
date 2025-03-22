@@ -17,4 +17,5 @@ n3=0O101
 # print(n2,n3)
 x=10
 y=15
-print(x & y)
+# print(x & y)
+# print(1 is True)

@@ -50,4 +50,23 @@ s9 = 'subscribe'
 # print(s9[-3:-6:2])
 
 s10 = 'completed'
-print(s10[2:5:3])
+# print(s10[2:5:3])
+
+lst1=[2929,"hello",28.93,'A',29,39.2]
+# print(lst1[1::])
+
+lst2= [(1, 'apple'), (2, 'banana'), (3, 'cherry'), (4, 'date')]
+# print(lst2[2::2])
+
+# print(lst2[-1::-1])
+# print(lst2[:-1:])
+
+#IN SLICING MINIMUM ONE COLON: IS REQUIRE
+st="I LOVE PYTHON"
+st1 =st.lower()
+# print(st1[::-1][::2][1:7][::-1])    
+st2="i am dharmendra chilhate"
+print(st2.title())
+print(st2.capitalize())
+print(st2.upper())
+print(st2.swapcase())
