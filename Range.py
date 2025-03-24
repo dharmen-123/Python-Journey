@@ -1,5 +1,5 @@
 # Range is  generate the sequential collection
-# syntax range(start , stop , step/direction/jump)\
+# syntax range(start , stop , step/direction/jump)
 # x=range(1,7)
 # print(list(x))
 # print(tuple(x))
@@ -16,7 +16,6 @@ print(list(t))
 #  PRINT NEGATIVE NUMBER
 # nve=range(-1,-7,-1)
 # print(list(nve))
-
 
 # c1=range(7,0,-2)
 # print(list(c1))
