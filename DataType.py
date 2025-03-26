@@ -79,5 +79,24 @@ print(s.title())
 print(s.swapcase())
 print(s.count('a'))
 print(s.index('I'))
-# print(s.join(,'Hello'))
 print(s.split())
+print(s.count('a',3,10))
+print(s.find('d'))
+print(s.find('D'))
+# l=['Neeraj', 'Kumar', 'Patel']
+# print(''.join(l))
+# str1='harsh'
+# str2='thakre'
+# l=[str1,str2]
+# print(' '.join(l))
+# print(str1.join(str2))
+
+# str3='harsh'
+# print(','.join(str1))
+
+# print(x.split())
+
+st='I Love python'
+print(st.split(' '))
+print(st.split(' ',0))
+print(st.split(' ',1))
