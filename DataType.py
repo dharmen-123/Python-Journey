@@ -125,3 +125,26 @@ print(st1+st2)
 st3 = 5
 print(st1*st3)
 
+  ################## LIST ############################
+
+#   Operation on list 
+
+#    len()
+#    max()
+#    min()
+#    sum()
+#    type()
+#    id()
+
+mylist = [10,'Dharmendra',20,'D']
+# print(max(mylist))    # TypeError: '>' not supported between instances of 'str' and 'int'
+myli_2 = [10,20,30,40]
+print(len(myli_2))
+print(min(myli_2))
+print(max(myli_2))
+print(type(myli_2))
+print(sum(myli_2))
+print(id(myli_2))
+
+
+
