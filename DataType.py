@@ -100,3 +100,28 @@
 # print(st.split(' ',0))
 # print(st.split(' ',1))
 
+    ##############String Operations #################
+# srt = "Dharmendra123 chilhate"
+
+# print(srt.isalnum())
+# print(srt.isalpha())
+# print(srt.isascii())
+# print(srt.isdecimal())
+# print(srt.isdigit())
+# print(srt.isidentifier())
+# print(srt.islower())
+# print(srt.isnumeric())
+# print(srt.isprintable())
+# print(srt.isspace())
+# print(srt.istitle())
+
+   ################ String Methematical Operation ############
+   ### + #### * ########
+#    + concatinate the string and * repeat the string 
+st1= "dharmendra "
+st2 = "Chilhate"
+print(st1+st2)
+
+st3 = 5
+print(st1*st3)
+
