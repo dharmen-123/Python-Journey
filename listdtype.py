@@ -14,9 +14,17 @@ l.extend([10,20,6])
 
 
 # print(l.index('A'))
-li=[2,3,4,4]
+li=[2,5,1,4]
 l.extend(li)
 # print(l)
 # print(l.index('A'))
 l.insert(3,'hello')
-print(l)
+# print(l)
+# print(l.pop())
+# print(l)
+# l.remove('hello')
+# l.remove(l[6])
+l.reverse()
+# print(l)
+li.sort()
+print(li)
