@@ -7,6 +7,7 @@
    
     # there are only two methods 
     # index and count 
+
 # function in tuple 
 # min
 # max
@@ -17,8 +18,11 @@
 
 t= ('Raj','Neeraj','Rahul')
 
-print(min(t))
-print(max(t))
-print(id(t))
-# print(sum(t))
-print(type(t))
+# print(min(t))
+# print(max(t))
+# print(id(t))
+# # print(sum(t))
+# print(type(t))
+
+print(t.index('Raj',2))
+print(t.count('Raj'))
