@@ -25,6 +25,7 @@ t= ('Raj','Neeraj','Rahul',10,20,30,40,50)
 # print(type(t))
 
 # print(t.index('Raj'))
-print(t.index(10,2))
+# print(t.index(10,2))
+# print(t.index(10,1,3))
 
-# print(t.count('Raj'))
+print(t.count('Raj'))
