@@ -14,7 +14,7 @@
 # sum
 # id
 # type    
-    
+
 t= ('Raj','Neeraj','Rahul')
 
 print(min(t))
