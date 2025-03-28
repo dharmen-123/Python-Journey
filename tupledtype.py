@@ -8,3 +8,8 @@
     # there are only two methods 
     # index and count 
     
+    
+t= ('Raj','Neeraj','Rahul')
+st='j'
+print(min(t))
+print(ascii(st))
