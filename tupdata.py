@@ -16,7 +16,7 @@
 # id
 # type    
 
-t= ('Raj','Neeraj','Rahul')
+t= ('Raj','Neeraj','Rahul',10,20,30,40,50)
 
 # print(min(t))
 # print(max(t))
@@ -24,5 +24,7 @@ t= ('Raj','Neeraj','Rahul')
 # # print(sum(t))
 # print(type(t))
 
-print(t.index('Raj',2))
-print(t.count('Raj'))
+# print(t.index('Raj'))
+print(t.index(10,2))
+
+# print(t.count('Raj'))
