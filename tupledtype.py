@@ -7,9 +7,18 @@
    
     # there are only two methods 
     # index and count 
-    
+# function in tuple 
+# min
+# max
+# len
+# sum
+# id
+# type    
     
 t= ('Raj','Neeraj','Rahul')
-st='j'
+
 print(min(t))
-print(ascii(st))
+print(max(t))
+print(id(t))
+# print(sum(t))
+print(type(t))
