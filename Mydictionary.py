@@ -45,5 +45,8 @@ d1=dict.fromkeys(st,'python')
 # print(x.popitem())
 # print(x)
 
-print(x.pop('branch'))
+# print(x.pop('branch'))
+# print(x)
+
+x.setdefault('age',20)
 print(x)
