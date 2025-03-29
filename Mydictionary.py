@@ -33,5 +33,11 @@ dic = dict.fromkeys(l)
 # print(dic)
 
 st = "dharmendra"
+s1=set(st)
+# print(s1)
 d1=dict.fromkeys(st,'python')
-print(d1)
+# print(d1)
+
+print(x.items())
+print(x.keys())
+print(x.values())
