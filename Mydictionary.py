@@ -49,4 +49,18 @@ d1=dict.fromkeys(st,'python')
 # print(x)
 
 x.setdefault('age',20)
-print(x)
+# print(x)
+x.setdefault('name','Dharmendra')
+# print(x)
+x1={'a':'A','b':'B'}
+x.update(x1)
+# print(x)
+# x.update('name'['course','btech'])
+# print(x)
+
+x['age']=21
+
+# print(x['name'])
+
+x['c']='C'
+# print(x)
