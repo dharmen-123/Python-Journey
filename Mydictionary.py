@@ -38,6 +38,12 @@ s1=set(st)
 d1=dict.fromkeys(st,'python')
 # print(d1)
 
-print(x.items())
-print(x.keys())
-print(x.values())
+# print(x.items())
+# print(x.keys())
+# print(x.values())
+
+# print(x.popitem())
+# print(x)
+
+print(x.pop('branch'))
+print(x)
