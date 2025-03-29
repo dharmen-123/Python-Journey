@@ -7,3 +7,4 @@
 
 d = {'name':"Dhamrmedra",'branch':"AIML",'roll':"12345"}
 print(d)
+print(d['roll'])
