@@ -33,5 +33,5 @@ dic = dict.fromkeys(l)
 # print(dic)
 
 st = "dharmendra"
-d1=dict.fromkeys(st)
+d1=dict.fromkeys(st,'python')
 print(d1)
