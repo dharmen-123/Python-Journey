@@ -30,4 +30,8 @@ d.clear()
 # print(d.fromkeys())
 l=['name','age','quali']
 dic = dict.fromkeys(l)
-print(dic)
+# print(dic)
+
+st = "dharmendra"
+d1=dict.fromkeys(st)
+print(d1)
