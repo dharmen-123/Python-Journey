@@ -13,9 +13,21 @@ d = {'name':"Dhamrmedra",'branch':"AIML",'roll':"12345"}
 
 #len()
 #max()
-# min()     j
-print(max(d))
-print(min(d))
-print(type(d))
-print(id(d))
-print(len(d))
+# min() 
+# type()
+# id()
+
+# print(max(d))
+# print(min(d))
+# print(type(d))
+# print(id(d))
+# print(len(d))
+
+x=d.copy()
+d.clear()
+# print(d)
+# print(x)
+# print(d.fromkeys())
+l=['name','age','quali']
+dic = dict.fromkeys(l)
+print(dic)
