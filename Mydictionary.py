@@ -6,5 +6,16 @@
 # mutable in nature 
 
 d = {'name':"Dhamrmedra",'branch':"AIML",'roll':"12345"}
-print(d)
-print(d['roll'])
+# print(d)
+# print(d['roll'])
+
+####### FUNCTION IN DICTIONARY ###############
+
+#len()
+#max()
+# min()     j
+print(max(d))
+print(min(d))
+print(type(d))
+print(id(d))
+print(len(d))
