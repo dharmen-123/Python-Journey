@@ -1,3 +1,6 @@
+
+  
+
 st1={'dharmendra','AIML','Btech',29827,9.5}
 print(type(st1))
 st1.add(10)
