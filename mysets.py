@@ -4,6 +4,9 @@ st1.add(10)
 st2=st1.copy()
 # print(st2)
 st1.clear()
-print(st1)
-srt1.
+st2.remove('Btech')
+# print(st2)
 
+# print(st2.pop())
+st2.update('A')
+print(st2)
