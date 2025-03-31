@@ -14,7 +14,6 @@
 # sum()
 # id()
 
-
 st1={'dharmendra','AIML','Btech',29827,9.5}
 s={10,20,30,40,10,20}
 # print(st1)
@@ -28,8 +27,13 @@ st2=st1.copy()
 print(st2)
 st1.clear()
 # st2.update(2,3,4,)
-st2.update('Python')
-print(st2)
+# st2.update('Python')
+# print(st2)
+
+# l1=[1,2,3]
+# l2=[10,2,30]
+# st2.update(l1,l2)
+# print(st2)
 # st2.remove('Btech')
 # print(st2)
 
