@@ -1,3 +1,10 @@
+  ############## SETS ###################
+
+# Colection fo unique Elements
+# represented in {} with comma sepreated 
+# Unordered collection
+# indexing and slicing are not supported
+# Muttable in nature  
 
   
 
