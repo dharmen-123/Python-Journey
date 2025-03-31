@@ -16,11 +16,13 @@
 
 
 st1={'dharmendra','AIML','Btech',29827,9.5}
+s={10,20,30,40,10,20}
 # print(st1)
 # print(len(st1))
 # print(type(st1))
 # print(max(st1))
 # print(id(st1))
+print(sum(s))
 st1.add(10)
 st2=st1.copy()
 # print(st2)
