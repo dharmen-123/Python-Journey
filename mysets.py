@@ -35,6 +35,12 @@ st1.clear()
 # st2.update(l1,l2)
 # print(st2)
 st2.remove('Btech')
+# st2.remove("aiml")
+st2.discard('aiml')
 # print(st2)
 # print(st2.pop())
-print(st2)
+# print(id(st1),id(st2))
+print(st1)
+s1={1,2,3,4,5,6}
+s2={4,5,6,7,8,9}
+print(s1.union(s2))
