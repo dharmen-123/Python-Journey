@@ -49,4 +49,6 @@ s2={4,5,6,7,8,9}
 # s1.intersection_update(s2)
 # s1.difference_update(s2)
 # s1.symmetric_difference_update(s2)
-print(s1)
+# print(s1)
+# print(s2.difference_update(s1))
+print(s2)
