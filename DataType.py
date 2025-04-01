@@ -13,7 +13,6 @@
 # 3.unordered collection - set and frozenset
 # 4.sequential / Ordered - string ,list , tuple
 
-
 ########  NUMERIC DATA TYPE ############
 
 
