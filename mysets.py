@@ -51,4 +51,13 @@ s2={4,5,6,7,8,9}
 # s1.symmetric_difference_update(s2)
 # print(s1)
 # print(s2.difference_update(s1))
-print(s2)
+# print(s2)
+# s3={1,2,3}
+# s4={4,5,6}
+# print(s3.isdisjoint(s4))
+# print(s1)
+
+A={1,2,3,4,5,6,7}
+B={4,5,6}
+# print(B.issubset(A))
+print(A.issuperset(B))
