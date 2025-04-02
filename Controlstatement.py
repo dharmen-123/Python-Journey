@@ -11,7 +11,11 @@
 # if x>y:
 #     print("X is greater  then y")
 
-a=int(input("Enter the Number : "))
-if a%2==0:
-    print(f"Given number {a} is Even number")
-    
+# a=int(input("Enter the Number : "))
+# if a%2==0:
+#     print(f"Given number {a} is Even number")
+  
+  ###### Add two number at run time input from user ######
+a=int(input("Enter the Number 1: "))
+b=int(input("Enter the Number 2: "))
+print(f"The sum of {a} and {b} is {a+b}")
