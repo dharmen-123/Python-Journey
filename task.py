@@ -69,9 +69,5 @@
 
 
 
-# a=int(input("Enter the num "))
-# if(a%2==0):
-#     print(f"The num is even")
-# else :
-#     print(f"the num is odd")
+
 
