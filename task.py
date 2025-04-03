@@ -21,6 +21,9 @@
 # x=x-y
 # print(f"The value of x is {x} \nThe value of y is {y}")
 
+# x=x*y
+# y=x/y
+# x=x/y
 
    ######## Q.4 Area of circle  #############
 

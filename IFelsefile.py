@@ -18,14 +18,14 @@
 
   ########## Q.3 ###########
   
-x=int(input("Enter the value "))
-if x==0:
-    print(f"The given number {x} is zero")
-elif x<=0:
-    print(f"The given number {x} is less than zero")
-elif x>0:
-    print(f"The given number {x} is greater than zero")
-else:
-    print(f"The given number {x} is other")
+# x=int(input("Enter the value "))
+# if x==0:
+#     print(f"The given number {x} is zero")
+# elif x<=0:
+#     print(f"The given number {x} is less than zero")
+# elif x>0:
+#     print(f"The given number {x} is greater than zero")
+# else:
+#     print(f"The given number {x} is other")
 
 
