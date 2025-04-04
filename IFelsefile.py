@@ -28,4 +28,21 @@
 # else:
 #     print(f"The given number {x} is other")
 
+   ###### Which number is greater ########
+# x=int(input("Enter the number"))
+# y=int(input("Enter the number"))
+# z=int(input("Enter the number"))
+# if x>y and x>z:
+#    print(f"{x} is greater")
+# elif y>x and y>z:
+#    print(f"{x} is greater")
+# else:
+#    print(f"{xz} is greater")
 
+  ######## MEthod 2 #########
+
+# x=int(input("Enter the number"))
+# y=int(input("Enter the number"))
+# z=int(input("Enter the number"))
+# l=[x,y,z]
+# print(max(l))
