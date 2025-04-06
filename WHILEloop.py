@@ -79,6 +79,9 @@
 # else:
 #   print("Given number is not a pallindorme")
 
+    ##################   TASK QUESTIONS   ###################
+    ##################   TASK QUESTIONS   ###################
+
                      ######### Print the n Even Number #############
 
 # num=int(input("Enter the number : "))
@@ -131,4 +134,58 @@
 #     i=i+1  
 # print(sum)
 
-            
+       #||||||||||||||||||||||||| ODD NUMBER QUESTION ||||||||||||||||||||||||||||||#
+
+                          ######### Print the n Odd Number #############
+
+# num=int(input("Enter the number : "))
+# i=1
+# while (i<=num):
+#   if i<num:
+#     print((2*i)-1,end=',')
+#   else :
+#     print((2*i)-1,end=" ")  
+#   i=i+1
+
+                     ########### Print Sum of N Odd Number #########
+
+# num=int(input("Enter the number : "))
+# i=1
+# sum=0
+# while (i<=num):
+#     sum=sum+((2*i)-1) 
+#     if i<num:
+#       print((2*i)-1,end=' + ')
+#     else :
+#       print((2*i)-1,end=" = ")  
+#     i=i+1
+# print(sum)
+
+     ######### Print the Odd number from 1 to n ##############
+
+# n=int(input("Enter the Number : "))
+# i=1
+# while(i<=n):
+#     if i<n:
+#         if i%2==0:
+#           print(i-1,end=",")
+#     else:
+#       print(i-1,end=" ")
+#     i=i+1  
+
+     ######### Print the SUM of Odd number from 1 to n ##############
+     
+# n=int(input("Enter the Number : "))
+# i=1
+# sum=0
+# while(i<=n):
+    
+#     if i<n:
+#         if i%2==0:
+#           print(i-1,end=" + ")
+#         else:
+#           sum=sum+i
+#     else:
+#       print(i-1,end=" = ")
+#     i=i+1  
+# print(sum)
