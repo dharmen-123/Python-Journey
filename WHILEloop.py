@@ -72,8 +72,24 @@
 #     print("not ")
 
     ############## 2nd Way to find pallindrome #########
-n=input("Enter the Number : ")
-if n==n[::-1]:
-  print(f"The given number {n} is Pallindrom")
-else:
-  print("Given number is not a pallindorme")
+# n=input("Enter the Number : ")
+# if n==n[::-1]:
+#   print(f"The given number {n} is Pallindrom")
+# else:
+#   print("Given number is not a pallindorme")
+
+    ######### Print the n Even Number #############
+
+# num=int(input("Enter the number : "))
+# i=1
+# while (i<=num):
+#   if i<num:
+#     print(2*i,end=',')
+#   else :
+#     print(2*i,end=" ")  
+#   i=i+1
+
+     ######### Print the even number from 1 to n ##############
+n=int(input("Enter the Number : "))
+i=1
+while(i<=n):
