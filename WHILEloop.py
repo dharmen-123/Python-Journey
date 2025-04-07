@@ -203,10 +203,19 @@
 
       ########### Armstrong Number ###########
 n=int(input("Enter the number :"))
-count=3
+x=n
+m=x
+count=0
 sum=0
 while(n>0):
-     x=n%10
-     sum=sum+x**count
      n=n//10
+     count+=1
+while(x>0):
+     x=x%10
+     sum=sum+x**count
+     x=x//10
 print(sum)
+if(m==sum):
+     print('Given number {} is armstrong'.format(m))
+else :
+     print("not armsttrong")
