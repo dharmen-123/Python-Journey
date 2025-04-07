@@ -175,17 +175,16 @@
 
      ######### Print the SUM of Odd number from 1 to n ##############
      
-# n=int(input("Enter the Number : "))
-# i=1
-# sum=0
-# while(i<=n):
-    
-#     if i<n:
-#         if i%2==0:
-#           print(i-1,end=" + ")
-#         else:
-#           sum=sum+i
-#     else:
-#       print(i-1,end=" = ")
-#     i=i+1  
-# print(sum)
+n=int(input("Enter the Number : "))
+i=1
+sum=0
+while(i<=n):
+    if i<n:
+        if i%2==0:
+          print(i-1,end=" + ")
+        else:
+          sum=sum+i
+    else:
+      print(i-1,end=" = ")
+    i=i+1  
+print(sum)
