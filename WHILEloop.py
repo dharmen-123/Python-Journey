@@ -200,3 +200,13 @@
 
 # n=input("Enter num: ")
 # print(len(n))
+
+      ########### Armstrong Number ###########
+n=int(input("Enter the number :"))
+count=3
+sum=0
+while(n>0):
+     x=n%10
+     sum=sum+x**count
+     n=n//10
+print(sum)
