@@ -210,9 +210,10 @@ sum=0
 while(n>0):
      n=n//10
      count+=1
+
 while(x>0):
-     x=x%10
-     sum=sum+x**count
+     y=x%10
+     sum=sum+y**count
      x=x//10
 print(sum)
 if(m==sum):
