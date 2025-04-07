@@ -188,3 +188,15 @@
 #       print(i-1,end=" = ")
 #     i=i+1  
 # print(sum)
+  
+    ######## Count number of digit in given number ############
+# n=int(input("Enter the number :"))
+# count=0
+# while(n>0):
+#      n=n//10
+#      count+=1
+# print(count)
+
+
+# n=input("Enter num: ")
+# print(len(n))
