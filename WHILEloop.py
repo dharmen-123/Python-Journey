@@ -196,8 +196,6 @@
 #      n=n//10
 #      count+=1
 # print(count)
-
-
 # n=input("Enter num: ")
 # print(len(n))
 
@@ -210,7 +208,6 @@
 # while(n>0):
 #      n=n//10
 #      count+=1
-
 # while(x>0):
 #      y=x%10
 #      sum=sum+y**count
@@ -221,11 +218,12 @@
 # else :
 #      print("not armsttrong")
 
-n=input("Enter string : ")
+
+str=input("Enter string : ")
 l=0
-r=len(n)-1
+r=len(str)-1
 while(l<r):
-     if(n[l]==n[r]):
+     if(str[l]==str[r]):
           l+=1
           r-=1
      else:
@@ -234,3 +232,5 @@ if(l==r):
      print("Given String is Pallindrome")
 else:
      print("Not Pallindrome")
+
+
