@@ -202,22 +202,22 @@
 
       ########### Armstrong Number ###########
 
-n=int(input("Enter the number :"))
-m=x=n
-count=0
-sum=0
-while(n>0):
-     n=n//10
-     count+=1
-while(x>0):
-     y=x%10
-     sum=sum+y**count
-     x=x//10
-print(sum)
-if(m==sum):
-     print('Given number {} is armstrong'.format(m))
-else :
-     print("not armstrong")
+# n=int(input("Enter the number :"))
+# m=x=n
+# count=0
+# sum=0
+# while(n>0):
+#      n=n//10
+#      count+=1
+# while(x>0):
+#      y=x%10
+#      sum=sum+y**count
+#      x=x//10
+# print(sum)
+# if(m==sum):
+#      print('Given number {} is armstrong'.format(m))
+# else :
+#      print("not armstrong")
    
    #######################################################
 
@@ -235,4 +235,16 @@ else :
 # else:
 #      print("Not Pallindrome")
 
+   ############# Fhibonacci Series ################
+n=int(input("Enter the number"))
+a=0
+b=1
+print(a,b,end=" ")
+i=3
+while(i<=n):
+     z=a+b
+     print(z,end=" ")
+     a,b=b,z
+     i=i+1
+ 
 
