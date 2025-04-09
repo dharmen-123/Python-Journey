@@ -201,24 +201,25 @@
 # print(len(n))
 
       ########### Armstrong Number ###########
-# n=int(input("Enter the number :"))
-# x=n
-# m=x
-# count=0
-# sum=0
-# while(n>0):
-#      n=n//10
-#      count+=1
-# while(x>0):
-#      y=x%10
-#      sum=sum+y**count
-#      x=x//10
-# print(sum)
-# if(m==sum):
-#      print('Given number {} is armstrong'.format(m))
-# else :
-#      print("not armsttrong")
 
+n=int(input("Enter the number :"))
+m=x=n
+count=0
+sum=0
+while(n>0):
+     n=n//10
+     count+=1
+while(x>0):
+     y=x%10
+     sum=sum+y**count
+     x=x//10
+print(sum)
+if(m==sum):
+     print('Given number {} is armstrong'.format(m))
+else :
+     print("not armstrong")
+   
+   #######################################################
 
 # str=input("Enter string : ")
 # l=0
