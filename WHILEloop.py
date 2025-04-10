@@ -249,15 +249,15 @@
 #      i=i+1
   #################################### 
 
-n=int(input("Enter the number"))
-a=0
-b=1
-# print(a,b,end=" ")
-z=0
-while(z<n):
-        z=a+b
-        print(z,end=" ")
-        if(z==n):
-           z=n
-        else:
-           a,b=b,z
+# n=int(input("Enter the number"))
+# a=0
+# b=1
+# # print(a,b,end=" ")
+# z=0
+# while(z<n):
+#         z=a+b
+#         print(z,end=" ")
+#         if(z==n):
+#            z=n
+#         else:
+#            a,b=b,z
