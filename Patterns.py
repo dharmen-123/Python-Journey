@@ -129,23 +129,41 @@
 #     print(' '*i+' *'*(n-i))
 #     i=i+1 
 
-
+                                   # # *    
+                                   # # **
+                                   # # ***
+                                   # # ****
+                                   # # *****
+                                   # # ****
+                                   # # ***
+                                   # # **
+                                   # # *
 # n=int(input("Enter the number : "))
 # i=1
 # while(i<=n):
-#     print('*'*i+' '*(n-i))
+#     print('* '*i+' '*(n-i))
 #     i=i+1
-# i=1
-# while(i<n):
+# j=1
+# while(j<n):
 #     n=n-1
-#     print('*'*n)
+#     print('* '*n)
 
-n = int(input("Enter Your Number : "))
-i = 1
-while i < n+1:
-    print("* " * i)
-    i += 1
-num = n - 1
-while num > 0:
-    print("* " * num)
-    num = num - 1
+                          # # *
+                          # # * *
+                          # # * * *
+                          # # * * * *
+                          # # * * * * *
+                          # # * * * *
+                          # # * * *
+                          # # * *
+                          # # *
+# n = int(input("Enter Your Number : "))
+# i = 1
+# while i <=n:
+#     print("* " * i)
+#     i += 1
+# num = n - 1
+# while num > 0:
+#     print("* " * num)
+#     num = num - 1
+
