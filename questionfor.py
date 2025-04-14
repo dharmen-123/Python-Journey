@@ -26,10 +26,15 @@
 # print(l)
 
    ########### Tuple operation by type casting ##########
-   
+
 # x=eval(input("Enter any tuple :"))
 # x=list(x)
 # l=[]
 # for i in x:
 #   l.append(i**0.5)
 # print(tuple(l))
+
+  ################# Dictionaries operation ##############
+a=eval(input("Enter any Dictionary :"))
+for i,j in a.items():
+  print(i,j)
