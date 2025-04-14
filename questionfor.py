@@ -14,6 +14,12 @@
 #     ####### ASCCI to Character #########
     
 #     print(chr(ord(i)+5),end='')
+ 
+ ######### Eval Take input in any data type
 
 x= eval(input("Enter the data "))
-print(x)
+# print(type(x))
+l=[]
+for i in x:
+   l.append((i**2)+5)
+print(l)
