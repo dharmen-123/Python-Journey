@@ -35,6 +35,23 @@
 # print(tuple(l))
 
   ################# Dictionaries operation ##############
-a=eval(input("Enter any Dictionary :"))
-for i,j in a.items():
-  print(i,j)
+# a=eval(input("Enter any Dictionary :"))
+# for i,j in a.items():
+#   print(i,j)
+
+     ############ Find minimium value in list ##################
+# l=[10,20,4,3,24,16]
+# minval=l[0]
+# for i in l:
+#   if i<minval:
+#     minval=i
+# print(minval)
+
+     ############ Find minimium value in list ##################
+
+# l=[10,20,4,3,24,16]
+# maxval=l[0]
+# for i in l:
+#   if i>maxval:
+#     maxval=i
+# print(maxval)
