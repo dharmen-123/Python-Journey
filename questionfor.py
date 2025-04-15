@@ -47,7 +47,7 @@
 #     minval=i
 # print(minval)
 
-     ############ Find minimium value in list ##################
+     ############ Find maximium value in list ##################
 
 # l=[10,20,4,3,24,16]
 # maxval=l[0]
