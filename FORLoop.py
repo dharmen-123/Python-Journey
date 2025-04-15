@@ -29,3 +29,12 @@
 #    print(x*2)
 
  ########## Q.2 ############
+
+########### HCF of given number #######
+x=int(input("Enter the number :")) 
+y=int(input("Enter the number :")) 
+mv=min(x,y)
+for i in range(1,mv):
+    if(x%i==0 and y%i==0):
+        hcf=i
+print(hcf)

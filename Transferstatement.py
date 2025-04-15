@@ -26,6 +26,7 @@
   ################# Pass Skip the block #######
   ################# Continue Skip the iteration  #######
 
-n=10
-i=0
+# n=10
+# i=0
   
+
