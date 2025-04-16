@@ -8,7 +8,8 @@
 
 # Function_name(argument) #function calling
 
-def Add(x,y):
-    print(x+y)
-print(Add(10,5))
-Add(5,8)
+# def Add(x,y):
+#     print(x+y)
+# print(Add(10,5))
+# Add(5,8)
+
