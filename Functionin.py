@@ -37,3 +37,12 @@
 
        ########## Leap year questions ###########
 
+def Leapyear(n):
+      if((n%4==0 or n%400==0) and n%100!=0):
+          # if(n%100!=0):
+          print("It is leap year")
+      else:
+          print("not")
+      
+n=int(input("Enter the year :"))
+Leapyear(n)
