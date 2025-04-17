@@ -26,11 +26,12 @@
 # print("Hello")
 # print(z)
 
-
-def Even(n):
-    for i in range(1,n+1):
-        if(i%2==0):
-            print(i)
-n=int(input("Enter the number :"))
-Even(n)
+        #### Print Evene Number using function #####
+        
+# def Even(n):
+#     for i in range(1,n+1):
+#         if(i%2==0):
+#             print(i)
+# n=int(input("Enter the number :"))
+# Even(n)
 
