@@ -92,7 +92,7 @@
 # add(10)
 
   ####### Assign multiple values in arguments ######
-# def add(*n):
+# def add(*n):   # *args
 #     sum=0
 #     for i in n:
 #         for j in i:
@@ -101,3 +101,14 @@
 # n=eval(input("Enter all values"))
 # z=add(n)
 # print(z) 
+
+
+  ######### Key word variables length arguments ########
+
+def show(**n):    # **kwargs
+    print(n)
+    print(type(n))
+    for i,j in n.items():
+         print(i,j)
+
+show(name="Dharmendra",age=20)
