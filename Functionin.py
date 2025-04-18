@@ -37,12 +37,48 @@
 
        ########## Leap year questions ###########
 
-def Leapyear(n):
-      if((n%4==0 or n%400==0) and n%100!=0):
-          # if(n%100!=0):
-          print("It is leap year")
-      else:
-          print("not")
+# def Leapyear(n):
+#       if((n%4==0 or n%400==0) and n%100!=0):
+#           # if(n%100!=0):
+#           print("It is leap year")
+#       else:
+#           print("not")
       
-n=int(input("Enter the year :"))
-Leapyear(n)
+# n=int(input("Enter the year :"))
+# Leapyear(n)
+
+  ####### Relation B/T Parameters & Arguments
+
+# positional Arguments
+# Keyword Arguments
+# Default Arguments
+# positional length / variables length argument
+# Keyword length /Keyword variables length argument
+
+########## Propositional Arguments #######
+# def Add(x,y):
+#     print(x,y)
+#     return x+y
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# z=Add(a,b)
+# print(z)
+
+  ######## Key word arguments #####
+  
+# def Add(x,y):
+#     print(x,y)
+#     return x+y
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# z=Add(x=a,y=b)
+# print(z)
+
+ ######## Default Arguments #########
+ 
+def Add(x=0,y=0):
+    return x+y
+a=int(input("Enter the number :"))
+b=int(input("Enter the number :"))
+z=Add()
+print(z)
