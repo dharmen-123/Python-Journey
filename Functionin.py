@@ -55,7 +55,7 @@
 # positional length / variables length argument
 # Keyword length /Keyword variables length argument
 
-########## Propositional Arguments #######
+########## Positional Arguments #######
 # def Add(x,y):
 #     print(x,y)
 #     return x+y
@@ -75,10 +75,18 @@
 # print(z)
 
  ######## Default Arguments #########
- 
-def Add(x=0,y=0):
-    return x+y
-a=int(input("Enter the number :"))
-b=int(input("Enter the number :"))
-z=Add()
-print(z)
+
+# def Add(x=0,y=0):
+#     return x+y
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# z=Add()
+# print(z)
+
+  ######### Variable length Arguments ######
+def add(*n):
+  print(n)
+  print(type(n))
+
+add()
+add(10)
