@@ -84,9 +84,20 @@
 # print(z)
 
   ######### Variable length Arguments ######
-def add(*n):
-  print(n)
-  print(type(n))
+# def add(*n):
+#   print(n)
+#   print(type(n))
 
-add()
-add(10)
+# add()
+# add(10)
+
+  ####### Assign multiple values in arguments ######
+# def add(*n):
+#     sum=0
+#     for i in n:
+#         for j in i:
+#             sum=sum+j
+#     return sum
+# n=eval(input("Enter all values"))
+# z=add(n)
+# print(z) 
