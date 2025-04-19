@@ -105,10 +105,10 @@
 
   ######### Key word variables length arguments ########
 
-def show(**n):    # **kwargs
-    print(n)
-    print(type(n))
-    for i,j in n.items():
-         print(i,j)
+# def show(**n):    # **kwargs
+#     print(n)
+#     print(type(n))
+#     for i,j in n.items():
+#          print(i,j)
 
-show(name="Dharmendra",age=20)
+# show(name="Dharmendra",age=20)
