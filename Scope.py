@@ -9,6 +9,7 @@
 # print(x)
 
        #########################
+   ######### LOCAL VARIABLES ##########
 
 # x=10
 # print(id(x))
@@ -19,13 +20,21 @@
 # display()
 # print(x)
 
+  ########## GLOBAL VARIABLES ###########
+  
+# x=10
+# def display():
+#     global y
+#     y=20
+#     print(y)
+# display()
+# print(x)
+# print(y)
+
+
 
 x=10
-def display():
-    global y
-    y=20
-    print(y)
-
-display()
-print(x)
-print(y)
+def dis():
+    x=20
+    print(globals()['x'])
+dis()
