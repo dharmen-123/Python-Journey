@@ -31,10 +31,11 @@
 # print(x)
 # print(y)
 
+#############################
 
+# x=10
+# def dis():
+#     x=20
+#     print(globals()['x'])
+# dis()
 
-x=10
-def dis():
-    x=20
-    print(globals()['x'])
-dis()
