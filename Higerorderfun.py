@@ -1,4 +1,3 @@
-import functools
 # l=[1,2,3,4,5]
 # def Squar(n):
 #     return (n**2)
@@ -25,7 +24,11 @@ import functools
 # print(tuple(x))
 
  ############### reduce function ##############
- 
+
+import functools
+
+  ###### Maxvalue using reduce method #####
+
 # l=[10,20,30,5,25,12,6]
 # def Maxfun(x,y):
 #       if(x>y):
@@ -33,4 +36,22 @@ import functools
 #       else :
 #         return y
 # x= functools.reduce(Maxfun , l)
+# print(x)              
+
+ ############# Sum of element using reduce #######
+# l=[2,4,8,10]
+# def Sumall(x,y):
+#    return x+y
+# x=functools.reduce(Sumall,l)
 # print(x)
+
+  ###### Minimum value using reduce method #####
+
+l=[10,20,30,5,25,12,6]
+def Maxfun(x,y):
+      if(x<y):
+        return x
+      else :
+        return y
+x= functools.reduce(Maxfun , l)
+print(x)
