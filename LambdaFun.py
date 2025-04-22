@@ -17,8 +17,10 @@ l=[1,2,3,4,6,7,8]
 
 # x=list(filter(lambda x:  x%2==0 ,l))
 # print(x)
-
+             ######even number code #####
+             
 # print(list(filter(lambda x:  x%2==0 ,[1,2,3,4,5])))
 
         #######using reduce method ######
+
 print(functools.reduce(lambda a,b : a if a<b else b ,l))
