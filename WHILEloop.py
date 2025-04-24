@@ -52,7 +52,6 @@
 # n=int(input("Enter The number"))
 # i=1
 # while(i<=n):
-
 #     if i%2==0:
 #         print(i,end=',')
 #     else:
