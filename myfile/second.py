@@ -1,7 +1,7 @@
-print(dir())
-
-print(__name__)
-print(__doc__)
+# print(dir())
+# print(__name__)
+# print(__doc__)
 # print(__file__)
-print(__package__)
+# print(__package__)
 
+import first
