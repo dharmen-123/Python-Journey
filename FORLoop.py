@@ -54,13 +54,9 @@
 
  
 n=int(input("Enter the number :"))
-x=n
-rev=0
-for i in range(n,0):
-    last=i%10
-    rev=rev*10+last
-    i=i//10
-if x==rev:
-   print("pallindrome")
-else:
-   print("not")
+for i in range(1,n+1):
+   if i<n:
+      print(2*i,end=',')
+   else :
+      print(2*i)  
+   i=i+1
