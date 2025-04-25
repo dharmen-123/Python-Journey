@@ -22,12 +22,12 @@
 
             ###############################
 
-def decor(z):
-    def inner(x,y):
-        print(x+y)
-        print(z)
-    return inner
-x=decor(10)
-p=int(input("Enter the number :"))
-q=int(input("Enter the number :"))
-x(p,q)
+# def decor(z):
+#     def inner(x,y):
+#         print(x+y)
+#         print(z)
+#     return inner
+# x=decor(10)
+# p=int(input("Enter the number :"))
+# q=int(input("Enter the number :"))
+# x(p,q)
