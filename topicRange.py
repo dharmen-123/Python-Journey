@@ -10,8 +10,8 @@
 # print(list(n1))
          #PRINT EVEN NUMBER
 # n=int(input("Enter the number: "))
-t=range(2,21,2)
-print(list(t))
+# t=range(2,21,2)
+# print(list(t))
 
 #  PRINT NEGATIVE NUMBER
 # nve=range(-1,-7,-1)
@@ -22,3 +22,6 @@ print(list(t))
 
 # c2=range(-3,4)
 # print(list(c2))
+
+# var1 = range(9,-4, -2)
+# print(tuple(var1))

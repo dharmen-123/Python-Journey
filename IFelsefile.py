@@ -46,3 +46,10 @@
 # z=int(input("Enter the number"))
 # l=[x,y,z]
 # print(max(l))
+
+
+# n=int(input("Enter the number"))
+# for i in range(1,n+1):
+#    if(i%2!=0):
+#       print(i , end=" ")
+

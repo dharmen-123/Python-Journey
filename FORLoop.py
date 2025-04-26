@@ -30,7 +30,7 @@
 
  ########## Q.2 ############
 
-########### HCF of given number #######
+########### HCF of given number ####### 
 # x=int(input("Enter the number :")) 
 # y=int(input("Enter the number :")) 
 # mv=min(x,y)

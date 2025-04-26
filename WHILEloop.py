@@ -260,3 +260,37 @@
 #            z=n
 #         else:
 #            a,b=b,z
+
+
+########### HCF of given number ####### 
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# mval = min(a,b)
+# for i in range(1,mval):
+#      if(a%i==0 and b%i==0):
+#           hcf=i
+# print(hcf)
+
+########### HCF of given number ####### 
+
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# mval = min(a,b)
+# i=1
+# while(i<mval):
+#      if(a%i==0 and b%i==0):
+#           hcf=i
+#      i=i+1
+# print(hcf)
+
+   ######### LCM Od given number
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# mval = max(a,b)
+# while(True):
+#      if(mval%a==0 and mval%b==0):
+#           lcm=mval
+#           break
+#      mval=mval+1
+# print(lcm)
+
