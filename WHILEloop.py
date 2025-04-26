@@ -218,21 +218,21 @@
 # else :
 #      print("not armstrong")
    
-   #######################################################
-
-str=input("Enter string : ")
-l=0
-r=len(str)-1
-while(l<r):
-     if(str[l]==str[r]):
-          l+=1
-          r-=1
-     else:
-          break
-if(l==r):
-     print("Given String is Pallindrome")
-else:
-     print("Not Pallindrome")
+   ####### Check the string is Pallindrome or not #########################
+       
+# str=input("Enter string : ")
+# l=0
+# r=len(str)-1
+# while(l<r):
+#      if(str[l]==str[r]):
+#           l+=1
+#           r-=1
+#      else:
+#           break
+# if(l==r):
+#      print("Given String is Pallindrome")
+# else:
+#      print("Not Pallindrome")
 
    ############# Fhibonacci Series ################
 
