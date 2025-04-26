@@ -283,7 +283,8 @@
 #      i=i+1
 # print(hcf)
 
-   ######### LCM Od given number
+   ######### LCM of given numbers ##########
+   
 # a=int(input("Enter the number :"))
 # b=int(input("Enter the number :"))
 # mval = max(a,b)
