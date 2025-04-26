@@ -99,5 +99,5 @@
 #       print(i, end=" ")
 
 
-
-
+# n=87687
+# print(len(str(n)))

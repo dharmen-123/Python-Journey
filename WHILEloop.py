@@ -220,19 +220,19 @@
    
    #######################################################
 
-# str=input("Enter string : ")
-# l=0
-# r=len(str)-1
-# while(l<r):
-#      if(str[l]==str[r]):
-#           l+=1
-#           r-=1
-#      else:
-#           print("not")
-# if(l==r):
-#      print("Given String is Pallindrome")
-# else:
-#      print("Not Pallindrome")
+str=input("Enter string : ")
+l=0
+r=len(str)-1
+while(l<r):
+     if(str[l]==str[r]):
+          l+=1
+          r-=1
+     else:
+          break
+if(l==r):
+     print("Given String is Pallindrome")
+else:
+     print("Not Pallindrome")
 
    ############# Fhibonacci Series ################
 
@@ -284,7 +284,7 @@
 # print(hcf)
 
    ######### LCM of given numbers ##########
-   
+
 # a=int(input("Enter the number :"))
 # b=int(input("Enter the number :"))
 # mval = max(a,b)
