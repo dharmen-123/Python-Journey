@@ -235,9 +235,57 @@
 #     i=i+1 
 
 
-n=int(input("Enter the number :"))
+# n=int(input("Enter the number :"))
+# i=0
+# while(i<n):
+#     print("  "*i+" *"*(n-i))
+#     i=i+1
+# i=2
+# while(i<=n):
+#     print("  "*(n-i)+" *"*(i))
+#     i=i+1
+  
+#######################################################
+          #         #     #         *
+          #         #     #       * *
+          #         #     #     * * *
+          #         #     #   * * * *
+          #         #     #   * * *
+          #         #     #   * *
+          #         #     #   *
+# n=int(input("ENter the number:"))
+# i=1
+# while(i<n):
+#    print("  "*(n-i)+" *"*i)
+#    i=i+1
+# i=0
+# while(i<=n):
+#    print(" *"*(n-i)+"  "*i)
+#    i=i+1
+   
+######################################################################
+                          # #    #       *
+                          # #    #     * *
+                          # #    #   * * *
+                          # #    #     * *
+                          # #    #       *
+# n=int(input("ENter the number:"))
+# i=1
+# while(i<n):
+#    print("  "*(n-i)+" *"*i)
+#    i=i+1
+# i=0
+# while(i<=n):
+#    print("  "*i+" *"*(n-i))
+#    i=i+1
+
+
+n=int(input("ENter the number:"))
+i=1
+while(i<=n):
+     print("+ "*i+" "*(n-i))
+     i=i+1
 i=0
 while(i<n):
-    print(" "*i)
-
-
+     i=i+1
+     print("  "*i+"* "*(n-i))

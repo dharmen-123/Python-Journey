@@ -236,16 +236,16 @@
 
    ############# Fhibonacci Series ################
 
-n=int(input("Enter the number"))
-a=0
-b=1
-print(a,b,end=" ")
-i=1
-while(i<=(n-2)):
-     z=a+b
-     print(z,end=" ")
-     a,b=b,z
-     i=i+1
+# n=int(input("Enter the number"))
+# a=0
+# b=1
+# print(a,b,end=" ")
+# i=1
+# while(i<=(n-2)):
+#      z=a+b
+#      print(z,end=" ")
+#      a,b=b,z
+#      i=i+1
 
    ############# Fhibonacci Series of N number ################
 
@@ -296,3 +296,18 @@ while(i<=(n-2)):
 #      mval=mval+1
 # print(lcm)
 
+  ############### SPY NUMBER ##################
+
+# n=int(input("Enter the number :"))
+# x=n
+# sum=0
+# mul=1
+# while(n>0 and x>0):
+#       s=n%10
+#       sum=sum+s
+#       mul=mul*s
+#       n=n//10
+# if(mul==sum):
+#    print("It is SPY number")
+# else:
+#    print("Not Spy number")
