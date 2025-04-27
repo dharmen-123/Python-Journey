@@ -300,7 +300,12 @@
 
       ################ PATTERN USING FOR LOOPS #####################
 
-for i in range(5,0,-1):
-    print("@ "*i)
+# for i in range(5,0,-1):
+#     print("@ "*i)
   
+n=int(input("Enter the number :"))
+i=0
+while(i<n):
+    print(" "*((2*n)-(i+1))+"*"*(i+1))
+    i=i+1
 
