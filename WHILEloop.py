@@ -236,29 +236,30 @@
 
    ############# Fhibonacci Series ################
 
-# n=int(input("Enter the number"))
-# a=0
-# b=1
-# print(a,b,end=" ")
-# i=1
-# while(i<=(n-2)):
-#      z=a+b
-#      print(z,end=" ")
-#      a,b=b,z
-#      i=i+1
-  #################################### 
+n=int(input("Enter the number"))
+a=0
+b=1
+print(a,b,end=" ")
+i=1
+while(i<=(n-2)):
+     z=a+b
+     print(z,end=" ")
+     a,b=b,z
+     i=i+1
+
+   ############# Fhibonacci Series of N number ################
 
 # n=int(input("Enter the number"))
 # a=0
 # b=1
-# # print(a,b,end=" ")
+# print(a,b,end=" ")
 # z=0
 # while(z<n):
 #         z=a+b
-#         print(z,end=" ")
-#         if(z==n):
-#            z=n
+#         if(z>=n):
+#             break
 #         else:
+#            print(z,end=" ")
 #            a,b=b,z
 
 
