@@ -77,3 +77,45 @@
 # input_number  = 5
 # for i in range(input_number):
 #     print(" " * (input_number - i) + "*" * (2*i + 1))
+
+
+  ############### SPY NUMBER ##################
+
+# n=int(input("Enter the number :"))
+# x=n
+# sum=0
+# mul=1
+# while(n>0 and x>0):
+#       s=n%10
+#       sum=sum+s
+#       mul=mul*s
+#       n=n//10
+# if(mul==sum):
+#    print("It is SPY number")
+# else:
+#    print("Not Spy number")
+
+n=int(input("Enter the number : "))  #145
+pnum=n
+fact=1
+sum=0
+while(n>0):
+      last=n%10
+      while(last>0):
+          fact=fact*last
+          last=last-1
+      n=n//10
+      sum=sum+fact
+print(fact)
+# if(pnum==sum):
+#    print("It is peterson number")
+# else:
+#    print("Not")   
+
+
+# last=5
+# fact=1
+# while(last>0):
+#      fact=fact*last
+#      last=last-1
+# print(fact)
