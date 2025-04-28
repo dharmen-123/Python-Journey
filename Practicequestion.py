@@ -10,6 +10,7 @@
 #     print(" "*(n-i)+" *"*i)
 #     i=i+1  
 
+
                ######################################
   #####           #######       *
   #####           #######     * * *
@@ -94,28 +95,21 @@
 #    print("It is SPY number")
 # else:
 #    print("Not Spy number")
+   
+   ################## PETERSON NUMBER #########################
 
-n=int(input("Enter the number : "))  #145
-pnum=n
-fact=1
-sum=0
-while(n>0):
-      last=n%10
-      while(last>0):
-          fact=fact*last
-          last=last-1
-      n=n//10
-      sum=sum+fact
-print(fact)
+# n=int(input("Enter the number :"))
+# pnum=n
+# sum=0
+# while(n>0):
+#       last=n%10
+#       n=n//10
+#       fact=1
+#       for i in range(1,last+1):
+#           fact*=i
+#       sum+=fact
 # if(pnum==sum):
 #    print("It is peterson number")
 # else:
 #    print("Not")   
 
-
-# last=5
-# fact=1
-# while(last>0):
-#      fact=fact*last
-#      last=last-1
-# print(fact)
