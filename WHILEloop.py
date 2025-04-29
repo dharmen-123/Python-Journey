@@ -274,15 +274,15 @@
 
 ########### HCF of given number ####### 
 
-a=int(input("Enter the number :"))
-b=int(input("Enter the number :"))
-mval = min(a,b)
-i=1
-while(i<mval):
-     if(a%i==0 and b%i==0):
-          hcf=i
-     i=i+1
-print(hcf)
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# mval = min(a,b)
+# i=1
+# while(i<mval):
+#      if(a%i==0 and b%i==0):
+#           hcf=i
+#      i=i+1
+# print(hcf)
 
    ######### LCM of given numbers ##########
 

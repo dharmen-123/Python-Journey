@@ -75,10 +75,9 @@
 # print(c1)
 
 
-# input_number  = 5
-# for i in range(input_number):
-#     print(" " * (input_number - i) + "*" * (2*i + 1))
-
+input_number  = 5
+for i in range(input_number):
+    print(" " * (input_number - i) + "*" * (2*i + 1))
 
   ############### SPY NUMBER ##################
 
