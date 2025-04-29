@@ -14,8 +14,7 @@
 # Opps
 # FileHandling  
 
-from myfile import first
-first.Presum(10,20)
 
+#jhjbhi
 
   
