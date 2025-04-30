@@ -119,25 +119,26 @@
 #      i=i+2
 
   ############# SUNNY NUMBER ############
-n=(int(input("Enter the number for check sunny number :")))
-a=n
-sun=0
-sum=0
-count=0
-sum2=0
-while(n>0):
-    n=n//10
-    count+=1
-while(a>0):
-   y=a%10
-   sum=sum+y**count
-   sun+=y
-   a=a//10
-while(sum>0):
-   b=sum%10
-   sum2+=b
-   sum=sum//10
-if(sum2==sun):
-   print("sunny number")
-else:
-   print("not")
+  
+# n=(int(input("Enter the number for check sunny number :")))
+# a=n
+# sun=0
+# sum=0
+# count=0
+# sum2=0
+# while(n>0):
+#     n=n//10
+#     count+=1
+# while(a>0):
+#    y=a%10
+#    sum=sum+y**count
+#    sun+=y
+#    a=a//10
+# while(sum>0):
+#    b=sum%10
+#    sum2+=b
+#    sum=sum//10
+# if(sum2==sun):
+#    print("sunny number")
+# else:
+#    print("not")
