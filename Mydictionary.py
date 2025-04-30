@@ -26,7 +26,7 @@ d = {'name':"Dhamrmedra",'branch':"AIML",'roll':"12345"}
 x=d.copy()
 d.clear()
 # print(d)
-print(x)
+# print(x)
 # print(d.fromkeys())
 l=['name','age','quali']
 dic = dict.fromkeys(l)
@@ -38,9 +38,9 @@ s1=set(st)
 d1=dict.fromkeys(st,'python')
 # print(d1)
 
-print(x.items())
-print(x.keys())
-print(x.values())
+# print(x.items())
+# print(x.keys())
+# print(x.values())
 
 # print(x.popitem())
 # print(x)
