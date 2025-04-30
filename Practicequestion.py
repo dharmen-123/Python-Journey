@@ -119,7 +119,7 @@
 #      i=i+2
 
   ############# SUNNY NUMBER ############
-  
+
 # n=(int(input("Enter the number for check sunny number :")))
 # a=n
 # sun=0
@@ -142,3 +142,5 @@
 #    print("sunny number")
 # else:
 #    print("not")
+
+
