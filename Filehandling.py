@@ -49,11 +49,32 @@
 
 ### IN append mode the cursor position is at the last
 
-f=open("x1.py",'a')
-print(f.name)
-print(f.mode)
-print(f.readable())
-print(f.writable())
-print(f.closed)
-f.close
-print(f.closed)
+# f=open("x1.py",'a')
+# print(f.name)
+# print(f.mode)
+# print(f.readable())
+# print(f.writable())
+# print(f.closed)
+# f.close
+# print(f.closed)
+
+     #########   X mode in File Handling #############
+     #########   X mode in File Handling #############
+
+# f=open('n3.py','x')
+# print(f.name)
+# print(f.mode)
+# print(f.readable())
+# print(f.writable())
+# print(f.closed)
+# f.close
+# print(f.closed)
+
+      #######  w Mode in the File Handling ############
+      #######  w Mode in the File Handling ############
+f1=open('n3.py','w')
+print(f1.name)
+print(f1.mode)
+print(f1.readable())
+print(f1.writable())
+print(f1.closed)
