@@ -11,6 +11,22 @@
 # cursor position in x mode is zero
 
             # x                        w
+     ## x is the create mode 
+     ## w is write mode
+     ## r is the readeble mode
+     ## a is the append mode
+
+      
+# f= open('n3.py', 'x')
+# print("File created")
+# print(f.name)
+# print(f.mode)
+# print(f.readable)
+# print(f.writable)
+# print(f.closed)
+# f.close
+# print(f.closed)
+
 
 # f= open('n4.py', 'w')
 # print("File created")
