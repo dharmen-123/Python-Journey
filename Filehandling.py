@@ -72,9 +72,11 @@
 
       #######  w Mode in the File Handling ############
       #######  w Mode in the File Handling ############
-f1=open('n3.py','w')
-print(f1.name)
-print(f1.mode)
-print(f1.readable())
-print(f1.writable())
-print(f1.closed)
+      
+# f1=open('n3.py','w')
+# print(f1.name)
+# print(f1.mode)
+# print(f1.readable())
+# print(f1.writable())
+# print(f1.closed)
+# economy
