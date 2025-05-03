@@ -83,3 +83,4 @@
 # income
 # activate
 # ptp3
+# pyvenv
