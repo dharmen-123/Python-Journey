@@ -79,4 +79,5 @@
 # print(f1.readable())
 # print(f1.writable())
 # print(f1.closed)
-# economy
+# economy 
+# income
