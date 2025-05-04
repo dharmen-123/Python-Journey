@@ -95,3 +95,4 @@
 # self.hits-points
 # self.write
 # self.fingerprints
+# trigger
