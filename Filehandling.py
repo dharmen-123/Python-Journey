@@ -90,3 +90,4 @@
 # return 'Hello world'
 # num=34
 # FINDING post images in the soup
+# self.current
