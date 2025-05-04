@@ -93,3 +93,4 @@
 # self.current
 # self.level
 # self.hits-points
+# self.write
