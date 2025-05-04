@@ -92,3 +92,4 @@
 # FINDING post images in the soup
 # self.current
 # self.level
+# self.hits-points
