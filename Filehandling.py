@@ -101,3 +101,4 @@
 # activate
 # activate.csh
 # activate.fish
+# easy_install
