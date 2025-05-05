@@ -100,3 +100,4 @@
 # steno.grapher
 # activate
 # activate.csh
+# activate.fish
