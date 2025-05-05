@@ -96,5 +96,5 @@
 # self.write
 # self.fingerprints
 # classmethod
-# self.atteched
-# return request
+# self.atteche
+# steno.grapher
