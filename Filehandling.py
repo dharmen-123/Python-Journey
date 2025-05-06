@@ -105,3 +105,4 @@
 # its me nature
 # self power
 # self load
+# self voltage
