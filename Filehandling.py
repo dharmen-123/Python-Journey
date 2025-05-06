@@ -103,3 +103,4 @@
 # activate.fish
 # easy_install
 # its me nature
+# self power
