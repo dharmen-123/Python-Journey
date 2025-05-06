@@ -106,3 +106,4 @@
 # self power
 # self load
 # self voltage
+# self gpu-memory
