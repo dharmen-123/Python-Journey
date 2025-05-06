@@ -108,3 +108,4 @@
 # self voltage
 # self gpu-memory
 # self usage
+# gpuinfo.
