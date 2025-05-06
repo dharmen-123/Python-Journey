@@ -110,3 +110,4 @@
 # self usage
 # gpuinfo.
 # name value
+# sensors fans
