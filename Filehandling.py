@@ -104,3 +104,4 @@
 # easy_install
 # its me nature
 # self power
+# self load
