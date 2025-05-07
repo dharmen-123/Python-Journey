@@ -111,3 +111,4 @@
 # gpuinfo.
 # name value
 # sensors fans
+# my name tanu
