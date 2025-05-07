@@ -119,3 +119,4 @@
 # entrance
 # english spoken
 # girox 
+# change mode
