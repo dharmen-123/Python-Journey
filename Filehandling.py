@@ -112,3 +112,4 @@
 # name value
 # sensors fans
 # my name tanu
+# rog strick
