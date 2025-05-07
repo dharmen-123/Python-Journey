@@ -117,3 +117,4 @@
 # facility
 # good series
 # entrance
+# english spoken
