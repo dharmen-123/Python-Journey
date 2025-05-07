@@ -115,3 +115,4 @@
 # rog strick
 # ryzen
 # facility
+# good series
