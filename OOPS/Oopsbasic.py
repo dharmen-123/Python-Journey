@@ -17,9 +17,9 @@
 # -> local variable
 
 # Methods:-
-# -> Instance method
-# -> Class method
-# -> Static method
+# -> Instance method     (first parameter is self)
+# -> Class method        (first parameter is cls) @classmethod
+# -> Static method       (@staticmethod)
 
 
 
