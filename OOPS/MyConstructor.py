@@ -1,4 +1,5 @@
 # constructor is a special type of magic method which calls automatically after making object
+#constructor is used to initialize the variable
 
 # class Home:
 #     def _init_(self,name,contact,address):   ## self is a reference variable which holds the address of current class of current object
