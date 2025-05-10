@@ -26,7 +26,12 @@ class Student:
         print(Student.grade)
 obj= Student("dharmendra", 20)
 obj.Show_details()
-Student.update_grade("12th")
+Student.update_grade("11th")
 obj.Show_details()
 obj.newmethod(4,5)
 # Student.newmethod(5,6)
+obj1=Student("harsh", 21)
+obj1.update_grade("12th")
+obj1.update_school('VBHSS')
+obj1.Show_details()
+
