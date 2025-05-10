@@ -18,9 +18,20 @@
 # obj=Python("Dharmendra")
 
 class First:
-    "for demo purpose hbuhbjmuihbuuggvcybugsuttbn"
-    pass
-print(len(dir(First)))
+    "for demo purpose "
+    x=10
+    y=20
+    # @staticmethod
+    def new(self):
+        print("hello")
+        print(id(self))
+    # pass
+# print(len(dir(First)))
 print(First.__module__)
 print(First.__doc__)
 print(First.__dict__)
+print(id(First))
+
+obj=First()
+print(id(obj))
+obj.new()
