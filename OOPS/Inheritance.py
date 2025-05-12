@@ -1,4 +1,6 @@
    #Constructor overload
+#    Python support Method overriding
+#    Python does not support method Overloading
          
 # class Parent:
 #     def __init__(self, bank , house):
@@ -17,16 +19,103 @@
 # obj1=C("RBI", "India")
 # obj1.show_details()
 
+####################################################
 
-class Parent:
-    def __init__(self, bank , house):
-        self.bank=bank
-        self.house=house
-class C(Parent):
-    
+# class Parent:
+#     def add(self):
+#         print("add from parent")
+#     def __init__(self, bank ,branch):
+#         self.bank=bank
+#         self.branch=branch
 
-    def show_details(self):
-        print(self.bank ,self.bank1)
-        print(self.house ,self.house1)
-obj=C  
-obj1=C()
+# class C(Parent):    
+#     def show_details(self):
+#         super().add()
+#         print(self.bank ,self.branch)
+#     def add(self):
+#         print("add from child")
+# obj=C  
+# obj1=C("RBI","MP")
+# obj1.show_details()
+# obj1.add()
+
+          ######## Method Overloading ##########
+
+# class Parent:
+#     def add(self):
+#         print("add from parent")
+#     def __init__(self, bank ,branch):
+#         self.bank=bank
+#         self.branch=branch
+
+# class C(Parent):    
+#     def add(self):
+#         super().add()
+#         print(self.bank ,self.branch)
+#     def add(self):
+#         print("add from child")
+# obj=C  
+# obj1=C("RBI","MP")
+# # obj1.show_details()
+# obj1.add()
+
+
+     ###### TYpes of Inheritance ######
+
+#### SINGLE INHERITANCE ######
+    #    |``````````|
+    #    |  Parent  |
+    #    `````|``````
+    #         |
+    #         V
+    #    |``````````|
+    #    |   Child  |
+    #    ````````````
+
+# class A:
+#     def first(self):
+#         print("first class")
+# class B(A):
+#     def second(self):
+#         print("second class")
+# obj=B()
+# obj.first()
+# obj.second()
+
+  ##### MultiLevel Inheritance #####
+#    |``````````|
+#    |  Grand   |
+#    `````|``````
+#         V
+#    |``````````|
+#    |  Parent  |
+#    `````|``````
+#         V
+#    |``````````|
+#    |   Child  |
+#    ````````````
+
+# class A:
+#     def first(self):
+#         print("first class")
+# class B(A):
+#     def second(self):
+#         print("second class")
+# class C(B):
+#     def third(self):
+#         print("third class")
+# obj=C()
+# obj.first()
+# obj.second()
+
+  ##### Multiple Inhertance ######
+
+#    |``````````|          |``````````|
+#    |  Grand   |          |  Grand   |
+#    `````|``````          `````|``````
+#         |________   __________|
+#                  |  |
+#                  V  V
+#              |``````````|
+#              |  Grand   |
+#              ````````````
