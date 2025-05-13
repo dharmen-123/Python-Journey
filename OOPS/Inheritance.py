@@ -119,3 +119,21 @@
 #              |``````````|
 #              |  Grand   |
 #              ````````````
+
+####### Heirarchical Inheritance ######
+
+class Parent:
+    def home(self):
+       print("from parent Home")
+    def bank(self):
+       print("from parent bank")
+class Child1(Parent):
+     pass
+class Child2(Parent):
+     pass
+obj1=Child1()
+obj2=Child2()
+obj1.home()
+obj1.bank()
+obj2.home()
+obj2.bank()
