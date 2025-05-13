@@ -111,29 +111,81 @@
   ##### Multiple Inhertance ######
 
 #    |``````````|          |``````````|
-#    |  Grand   |          |  Grand   |
+#    |  Parent  |          |  Parent  |
 #    `````|``````          `````|``````
 #         |________   __________|
 #                  |  |
 #                  V  V
 #              |``````````|
-#              |  Grand   |
+#              |  Child   |
 #              ````````````
 
 ####### Heirarchical Inheritance ######
 
-class Parent:
-    def home(self):
-       print("from parent Home")
-    def bank(self):
-       print("from parent bank")
-class Child1(Parent):
+#              |``````````|
+#              |  Parent  |
+#              ```|```|````
+#          _______|   |________
+#          |                  |
+#          V                  V
+#    |``````````|        |``````````|
+#    |   Child  |        |   Child  |
+#    ````````````        ````````````
+
+# class Parent:
+#     def home(self):
+#        print("from parent Home")
+#     def bank(self):
+#        print("from parent bank")
+# class Child1(Parent):
+#      pass
+# class Child2(Parent):
+#      pass
+# obj1=Child1()
+# obj2=Child2()
+# obj1.home()
+# obj1.bank()
+# obj2.home()
+# obj2.bank()
+
+ ######## Hybrid Inheritance #########
+#              |``````````|
+#              |  Grand   |
+#              ```|```|````
+#          _______|   |________
+#          |                  |
+#          V                  V
+#    |``````````|        |``````````|
+#    |   Parent |        |   Parent |
+#    `````|``````        `````|``````
+#         |________   ________|
+#                  |  |
+#                  V  V
+#              |``````````|
+#              |  Child   |
+#              `````|``````
+#                   V
+#              |``````````|
+#              |   Child  |
+#              ````````````
+
+class Grand:
+     def home(self):
+        print("From grand home")
+     def bank(self):
+        print("From grand  bank")
+class Parent1(Grand):
+     def car(self):
+        print("From Parent1 Car")
+
+class Parent2(Grand):
+     def bike(self):
+        print("From Parent2 Bike")
+
+class Child(Parent1,Parent2):
      pass
-class Child2(Parent):
-     pass
-obj1=Child1()
-obj2=Child2()
-obj1.home()
-obj1.bank()
-obj2.home()
-obj2.bank()
+obj=Child()
+obj.car()
+obj.bike()
+obj.home()
+obj.bank()
