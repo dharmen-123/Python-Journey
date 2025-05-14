@@ -10,3 +10,4 @@ def Mymul(a,b):
 def Mydiv(a,b):
     print(a/b)
 
+
