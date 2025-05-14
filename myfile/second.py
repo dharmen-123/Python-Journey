@@ -4,4 +4,4 @@
 # print(__file__)
 # print(__package__)
 
-import third
+import first
