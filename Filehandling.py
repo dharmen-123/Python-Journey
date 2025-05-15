@@ -81,10 +81,10 @@
 # print(f1.closed)
 
 
-f=open('n3.py','w')
-f.write("hello"
-)
-data="\nI am Dharmendra Chilhate i am taking a courese from cybrom "
-f.writelines(data)
-f.closed
+# f=open('n3.py','w')
+# f.write("hello"
+# )
+# data="\nI am Dharmendra Chilhate i am taking a courese from cybrom "
+# f.writelines(data)
+# f.closed
 
