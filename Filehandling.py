@@ -84,6 +84,7 @@
 f=open('n3.py','w')
 f.write("hello"
 )
-data="I am Dharmendra Chilhate i am taking a courese from cybrom "
-
+data="\nI am Dharmendra Chilhate i am taking a courese from cybrom "
+f.writelines(data)
+f.closed
 
