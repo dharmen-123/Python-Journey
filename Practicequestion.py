@@ -165,9 +165,13 @@
 # Ctime=datetime
 # print(Ctime.datetime(...))
 
+ ########## Q, ##########
+# class Calculate:
+#     def Factorial(n):
+#         fact = 1
+#         for i in range(n,0,-1):
+#             fact = fact*i
+#         print(fact)
+# obj=Calculate
+# obj.Factorial(5)
 
-class Calculate:
-    fact=1
-    def Factorial(self, n):
-        for i in range(n,0):
-            fact=fact*i
