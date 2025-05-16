@@ -151,12 +151,13 @@
 
 
 
-from functools import reduce
-l=[1,2,8,4,8,5]
-def Max(x,y):
-   if(x>y):
-     return x
-   else :
-     return y
-x = reduce(Max, l)
-print(x)
+# from functools import reduce
+# l=[1,2,8,4,8,5]
+# def Max(x,y):
+#    if(x>y):
+#      return x
+#    else :
+#      return y
+# x = reduce(Max, l)
+# print(x)
+
