@@ -161,3 +161,13 @@
 # x = reduce(Max, l)
 # print(x)
 
+# import datetime
+# Ctime=datetime
+# print(Ctime.datetime(...))
+
+
+class Calculate:
+    fact=1
+    def Factorial(self, n):
+        for i in range(n,0):
+            fact=fact*i
