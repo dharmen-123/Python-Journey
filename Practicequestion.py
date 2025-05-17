@@ -173,18 +173,32 @@
 #             fact = fact*i
 #         print(fact)
 # obj=Calculate
-# obj.Factorial(5)
-
+# n=int(input("Enter the number :"))
+# obj.Factorial(n)
 
 
  ############ Q.2 ############
-class Person:
-    def __init__(self, name , country , dob):
-         self.name=name
-         self.country=country
-         self.dob=dob
-    def birth(self):
-         age=2025-self.dob
-         print("Age :",date)
-obj=Person("dharmendra","IND",2003)
-obj.birth()
+# from datetime import datetime
+# class Person:
+#     def __init__(self, name , country , dob):
+#          self.name=name
+#          self.country=country
+#          self.dob=dob
+#     def birth(self):
+#          current=datetime.now().year
+#          age=current-self.dob
+#          print("Age :",age)
+# obj=Person("dharmendra","IND",2004)
+# obj.birth()
+
+ ######## Q.3 ##########
+
+# class Swaping:
+#     a=10
+#     b=20
+#     @staticmethod
+#     def change():
+#         Swaping.a,Swaping.b = Swaping.b,Swaping.a
+#         print(Swaping.a,Swaping.b)
+# obj=Swaping
+# obj.change()
