@@ -17,3 +17,31 @@
 
 
 # If you want access and declare the instance variable inside the class self keyword is used 
+
+# class Student:
+#     x=10
+#     def add(self):
+#         print("from add method:")
+# class Child(Student):
+#     print(Student.x)
+#     def new(self):
+#         Student.add(self)
+# obj=Child()
+# print(obj.x)
+# obj.new()
+
+class Student:
+    __x=10
+    def __add(self):
+        print("from add method:")
+class Child(Student):
+    # print(Student.__x)
+    # def new(self):
+    #     Student.__add(self)
+    pass
+# obj=Child()
+# print(obj.__x)
+# obj.__add()
+print(dir(Student))
+
+

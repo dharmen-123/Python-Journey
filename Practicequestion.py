@@ -226,3 +226,14 @@
 # C.area(r)
 # C.perimeter(r)
       
+ ####### Q.5 ##########
+
+class Student:
+     def __init__(self, stri):
+          self.s=stri
+     @staticmethod
+     def S():
+          print("hello.......")
+
+obj=Student("hello")
+obj.S()
