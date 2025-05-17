@@ -166,6 +166,8 @@
 # print(Ctime.datetime(...))
 
  ########## Q.1##########
+ ## Write a program to create class based method to find the factorial of any  number.
+
 # class Calculate:
 #     def Factorial(n):
 #         fact = 1
@@ -177,7 +179,10 @@
 # obj.Factorial(n)
 
 
- ############ Q.2 ############
+  ############ Q.2 ############
+  ##Write a Python program to create a person class. Include attributes like name, country and date of birth.
+  ##  Implement a method to determine the person's age.
+
 # from datetime import datetime
 # class Person:
 #     def __init__(self, name , country , dob):
@@ -191,8 +196,9 @@
 # obj=Person("dharmendra","IND",2004)
 # obj.birth()
 
- ######## Q.3 ##########
-
+      ######## Q.3 ##########
+     ## Write a program to create class using static variable for swapping of two 
+     ## numbers. 
 # class Swaping:
 #     a=10
 #     b=20
@@ -202,3 +208,21 @@
 #         print(Swaping.a,Swaping.b)
 # obj=Swaping
 # obj.change()
+
+ ####### Q.4 ##########
+# #Write a Python program to create a class representing a Circle. Include 
+##         methods to calculate its area and perimeter.
+
+# class Circle:
+#       def area(r):
+#           Arofc=3.14*r*r
+#           print(Arofc)
+#       def perimeter(r):
+#           Pm=2*3.14*r
+#           print(Pm) 
+
+# C = Circle
+# r=int(input("Enter the radius of circle :"))
+# C.area(r)
+# C.perimeter(r)
+      
