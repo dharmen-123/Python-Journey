@@ -23,7 +23,7 @@
 
 #  object badalne ke sath apni value baadal dee
 # variables which changes there values with there declaration  are instance variables 
-# variables ehich only accessible in blocks are local variables
+# variables which only accessible in blocks are local variables
 # 
 
 
@@ -43,21 +43,18 @@
 
 
 
-class A:
-    
-    def _init_(self,a,b):
+class A:    
+    def __init__(self,a,b):
         # print("Hello.")
         # print(id(self))
         self.a = a   # declare inside constructors
         self.b = b
         print(self.a) # access inside constructors
-        
     # def _init_(self,a,b,e):
     #     # print("Hello.")
     #     # print(id(self))
     #     self.a = a   # declare inside constructors
     #     self.b = b 
-    
     def new(self,c):
         print("Hi..")
         print(self.a) # access inside instence menthod
@@ -65,12 +62,13 @@ class A:
     
     def new1(self):
         print(self.d)
-
+        print(self.e)
 obj = A(2,4)
 # print(id(obj))
 obj.new(10)
 print(obj.a)
 print(obj.b)
-print(obj.c)  # access outside of the class
-obj.d = 100   # declare outside of the class
+print(obj.c)    # access outside of the class
+obj.d = 100     # declare outside of the class
+obj.e="hello"
 obj.new1()
