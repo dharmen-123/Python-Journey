@@ -183,4 +183,8 @@ class Person:
          self.name=name
          self.country=country
          self.dob=dob
-    
+    def birth(self):
+         age=2025-self.dob
+         print("Age :",date)
+obj=Person("dharmendra","IND",2003)
+obj.birth()
