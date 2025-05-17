@@ -227,13 +227,29 @@
 # C.perimeter(r)
       
  ####### Q.5 ##########
+##Write a Python program to create a calculator class. Include methods 
+# for basic arithmetic operations.
 
-class Student:
-     def __init__(self, stri):
-          self.s=stri
-     @staticmethod
-     def S():
-          print("hello.......")
+class Calculator:
+    def add(*n):
+        sum=0
+        for i in n:
+            sum=sum+i
+        print("The sum is :",sum)
+    def sub(a,b):
+        subt=a-b        
+        print(subt)
+    def multi(*n):
+        for i in n:
+            sum=sum*i
+        print(sum)
+    def divide(x,y):
+        res = x/y
+        print(res)
+obj = Calculator
+obj.add(2,3,4,5,7) 
+obj.sub(10,7)
+obj.multi(2,4,3)
 
-obj=Student("hello")
-obj.S()
+
+    
