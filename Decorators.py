@@ -33,15 +33,28 @@
 # x(p,q)
 
 ################################################
-def Outerfun(n):
-    def innerfun(x,y):
-        x=x*2
-        y=y+10
-        n(x,y)
-    return innerfun
-@Outerfun
-def Mainfun(p,q):
+# def Outerfun(n):
+#     def innerfun(x,y):
+#         x=x*2
+#         y=y+10
+#         n(x,y)
+#     return innerfun
+# @Outerfun
+# def Mainfun(p,q):
+#     print(p+q)
+# a=int(input("Enter the number :"))
+# b=int(input("Enter the number :"))
+# Mainfun(a,b)
+
+def outer_func(main_func):
+    def inner_func(s,t):
+        s=s*2
+        t=t+2
+        main_func(s,t)
+    return inner_func   
+@outer_func
+def main_func(p,q):
     print(p+q)
-a=int(input("Enter the number :"))
-b=int(input("Enter the number :"))
-Mainfun(a,b)
+s=int(input("Enter any number :"))
+t=int(input("Enter any number :")) 
+main_func(s,t)
