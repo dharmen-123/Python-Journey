@@ -19,6 +19,7 @@ class Student:
     @staticmethod
     def newmethod(x,y):
         print(x+y)
+        print(Student.school)
     def Show_details(self):
         print(self.n)
         print(self.a)

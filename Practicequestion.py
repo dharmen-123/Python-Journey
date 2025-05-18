@@ -165,9 +165,11 @@
 # Ctime=datetime
 # print(Ctime.datetime(...))
 
- ########## Q.1##########
- ## Write a program to create class based method to find the factorial of any  number.
+  ########## |||||||||||| ########### *********** ############ &&&&&&&&&&& #########
+  ########## |||||||||||| ########### *********** ############ &&&&&&&&&&& #########
 
+########## Q.1##########
+ ## Write a program to create class based method to find the factorial of any  number.
 # class Calculate:
 #     def Factorial(n):
 #         fact = 1
@@ -230,27 +232,63 @@
 ##Write a Python program to create a calculator class. Include methods 
 # for basic arithmetic operations.
 
-class Calculator:
-    def add(*n):
-        sum=0
-        for i in n:
-            sum=sum+i
-        print("The sum is :",sum)
-    def sub(a,b):
-        subt=a-b        
-        print(subt)
-    def multi(*n):
-        sum=0
-        for i in n:
-            sum=sum*i
-        print(sum)
-    def divide(x,y):
-        res = x/y
-        print(res)
-obj = Calculator
-obj.add(2,3,4,5,7) 
-obj.sub(10,7)
-obj.multi(2,4,3)
+# class Calculator:
+#     def add(*n):
+#         sum=0
+#         for i in n:
+#             sum=sum+i
+#         print("The Addition is :",sum)
+#     def sub(a,b):
+#         subt=a-b        
+#         print("The subtraction is :",subt)
+#     def multi(*n):
+#         val=1
+#         for i in n:
+#             val=val*i
+#         print("The multiplication is :",sum)
+#     def divide(x,y):
+#         res = x/y
+#         print("The division is :",res)
+# obj = Calculator
+# obj.add(2,3,4,5,7) 
+# obj.sub(10,7)
+# obj.multi(2,4,3)
+# obj.divide(7,3)
+
+ ##### Q.6 #######
+    ## Create a static method in a class to check if a number is prime 
+# class Prime:
+#     @staticmethod
+#     def newmethod(n):
+#         i=1
+#         count=0
+#         while(i<=n):
+#             if(n%i==0):
+#                 count+=1
+#             i+=1
+#         if(count==2):
+#            print("It is prime number")
+#         else:
+#            print("not")
+# n=int(input("Enter the number :"))
+# Prime.newmethod(n)
+
+ ####### Q.7 #########
+## Write a program to create class using static method to check the given string is palindrome or not?
+class Pallindrome:
+      pass
+      
 
 
-    
+
+  #### Q.8 #####
+##  Write a program to count the object.
+class Counter:
+   count=0
+   def __init__(self):
+      Counter.count+=1
+obj1=Counter()
+obj2=Counter()
+obj3=Counter()
+obj4=Counter()
+print(Counter.count)
