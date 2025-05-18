@@ -315,21 +315,21 @@
 
 ####### Q.10 ###########
 ##Write a program to create instances based  method on the diameter provided and do the calculations. 
-class Circle:
-    def __init__(self, diameter):
-        self.diameter = diameter
-        self.radius = diameter / 2
-    @classmethod
-    def diameter(cls, diameter):
-        return cls(diameter)
-    def circumference(self):
-        return 2*3.14*self.radius
-    def area(self):
-        return 3.14*(self.radius ** 2)
-d=int(input("Enter the diameter: "))
-C = Circle.diameter(d)
-print(f"Diameter: {C.diameter}")
-print(f"Radius: {C.radius}")
-print(f"Circumference: {C.circumference()}")
-print(f"Area: {C.area()}")
+# class Circle:
+#     def __init__(self, diameter):
+#         self.diameter = diameter
+#         self.radius = diameter/2
+#     @classmethod
+#     def diameter(cls, diameter):
+#         return cls(diameter)
+#     def circumference(self):
+#         return 2*3.14*self.radius
+#     def area(self):
+#         return 3.14*(self.radius ** 2)
+# d=int(input("Enter the diameter: "))
+# C = Circle.diameter(d)
+# print(f"Diameter: {C.diameter}")
+# print(f"Radius: {C.radius}")
+# print(f"Circumference: {C.circumference()}")
+# print(f"Area: {C.area()}")
 
