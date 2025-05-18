@@ -275,20 +275,34 @@
 
  ####### Q.7 #########
 ## Write a program to create class using static method to check the given string is palindrome or not?
-class Pallindrome:
-      pass
-      
-
+# class Pallindrome:
+#       @staticmethod
+#       def Check(str):
+#           if(str==str[::-1]):
+#              print("String is pallimndrome")
+#           else :
+#              print("not")
+# s=input("Enter the string :")
+# Pallindrome.Check(s)
 
 
   #### Q.8 #####
 ##  Write a program to count the object.
-class Counter:
-   count=0
-   def __init__(self):
-      Counter.count+=1
-obj1=Counter()
-obj2=Counter()
-obj3=Counter()
-obj4=Counter()
-print(Counter.count)
+
+# class Counter:
+#    count=0
+#    def __init__(self):
+#       Counter.count+=1
+# obj1=Counter()
+# obj2=Counter()
+# obj3=Counter()
+# obj4=Counter()
+# print(Counter.count)
+
+###### Q.9 ######
+#  Write a program to create class  using instance variables to calculate  the power. 
+class Calculate:
+    def __init__(self,number):
+        self.n=number
+    def power(self):
+        pass
