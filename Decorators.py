@@ -62,13 +62,14 @@
 
 ##################################
 def Special(fun):
-    def Inside(num):
-       num=num+1
-       fun(num)
-    return Inside
-@Special
+    def Inner(a):
+       a=a+2
+       fun(a)
+    return Inner
+
 def Main(n):
     for i in range(1,11):
-        print(n,"X",i,"=",n*i)
-n=int(input("Enter the number for print table :"))
-Main(n)
+        print(n*i)
+x=Special(Main)
+a=int(input("Enter the number :"))
+x(a)
