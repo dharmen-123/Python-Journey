@@ -29,14 +29,14 @@
 import functools
   ###### Maxvalue using reduce method #####
 
-l=[10,20,30,5,25,12,6]
-def Maxfun(x,y):
-      if(x>y):
-        return x
-      else :
-        return y
-x= functools.reduce(Maxfun ,l)
-print(x)              
+# l=[10,20,30,5,25,12,6]
+# def Maxfun(x,y):
+#       if(x>y):
+#         return x
+#       else :
+#         return y
+# x= functools.reduce(Maxfun ,l)
+# print(x)              
 
  ############# Sum of element using reduce #######
 # l=[2,4,8,10]

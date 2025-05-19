@@ -9,7 +9,7 @@ import functools
 # print(x(a,b)+5)
   
   ########### square of list using lambda fucntion ########
-l=[1,2,3,4,6,7,8]
+# l=[1,2,3,4,6,7,8]
 # x=list(map(lambda x:x**2 , l))
 # print(x) 
         
@@ -22,5 +22,8 @@ l=[1,2,3,4,6,7,8]
 # print(list(filter(lambda x:  x%2==0 ,[1,2,3,4,5])))
 
         #######using reduce method ######
-
+l=[1,2,3,4,6,7,8]
 print(functools.reduce(lambda a,b : a if a<b else b ,l))
+
+# a=lambda:print("hello python")
+# a()
