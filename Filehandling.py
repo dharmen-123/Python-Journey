@@ -4,8 +4,8 @@
     #   open()
     #   read/write()
     #   close()
- ### THERE are Two mode in file handing ####
-   # # x mode and w mode , read mode , append mode 
+ ### THERE are four mode in file handing ####
+   # # x mode and w mode ,r read mode ,a append mode 
 #in w mode cursor position is start from zero
 # x mode create new file
 # cursor position in x mode is zero
