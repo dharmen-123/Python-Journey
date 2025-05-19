@@ -1,9 +1,10 @@
 # l=[1,2,3,4,5]
-# def Squar(n):
-#     return (n**2)
-# x=map(Squar,l)
+# l1=[2,3,4,5,6]
+# def Squar(n,n1):
+#     return (n+n1)
+# x=map(Squar,l,l1)
 # print(x)
-# print(tuple(x))
+# print(list(x))
 
   ########### Multiply two collection using map function ######
 # l1=[1,2,3,4,5]
@@ -26,17 +27,16 @@
  ############### reduce function ##############
 
 import functools
-
   ###### Maxvalue using reduce method #####
 
-# l=[10,20,30,5,25,12,6]
-# def Maxfun(x,y):
-#       if(x>y):
-#         return x
-#       else :
-#         return y
-# x= functools.reduce(Maxfun , l)
-# print(x)              
+l=[10,20,30,5,25,12,6]
+def Maxfun(x,y):
+      if(x>y):
+        return x
+      else :
+        return y
+x= functools.reduce(Maxfun ,l)
+print(x)              
 
  ############# Sum of element using reduce #######
 # l=[2,4,8,10]
@@ -47,11 +47,11 @@ import functools
 
   ###### Minimum value using reduce method #####
 
-l=[10,20,30,5,25,12,6]
-def Maxfun(x,y):
-      if(x<y):
-        return x
-      else :
-        return y
-x= functools.reduce(Maxfun , l)
-print(x)
+# l=[10,20,30,5,25,12,6]
+# def Maxfun(x,y):
+#       if(x<y):
+#         return x
+#       else :
+#         return y
+# x= functools.reduce(Maxfun , l)
+# print(x)
