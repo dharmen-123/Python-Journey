@@ -49,4 +49,12 @@ obj=College("Dharmendra")
 obj.show_details(10)
 College.show_details()
 
+####### Overloading in PYthon ##########
+# class Student:
+#     def first(self, x,y):
+#         print("hello")
+#     def first(self):
+#         print("hello")
 
+# ob1=Student()
+# ob1.first()
