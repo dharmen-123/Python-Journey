@@ -43,32 +43,32 @@
 
 
 
-class A:    
-    def __init__(self,a,b):
-        # print("Hello.")
-        # print(id(self))
-        self.a = a   # declare inside constructors
-        self.b = b
-        print(self.a) # access inside constructors
-    # def _init_(self,a,b,e):
-    #     # print("Hello.")
-    #     # print(id(self))
-    #     self.a = a   # declare inside constructors
-    #     self.b = b 
-    def new(self,c):
-        print("Hi..")
-        print(self.a) # access inside instence menthod
-        self.c = c  # declare inside instence menthod
+# class A:    
+#     def __init__(self,a,b):
+#         # print("Hello.")
+#         # print(id(self))
+#         self.a = a   # declare inside constructors
+#         self.b = b
+#         print(self.a) # access inside constructors
+#     # def _init_(self,a,b,e):
+#     #     # print("Hello.")
+#     #     # print(id(self))
+#     #     self.a = a   # declare inside constructors
+#     #     self.b = b 
+#     def new(self,c):
+#         print("Hi..")
+#         print(self.a) # access inside instence menthod
+#         self.c = c  # declare inside instence menthod
     
-    def new1(self):
-        print(self.d)
-        print(self.e)
-obj = A(2,4)
-# print(id(obj))
-obj.new(10)
-print(obj.a)
-print(obj.b)
-print(obj.c)    # access outside of the class
-obj.d = 100     # declare outside of the class
-obj.e="hello"
-obj.new1()
+#     def new1(self):
+#         print(self.d)
+#         print(self.e)
+# obj = A(2,4)
+# # print(id(obj))
+# obj.new(10)
+# print(obj.a)
+# print(obj.b)
+# print(obj.c)    # access outside of the class
+# obj.d = 100     # declare outside of the class
+# obj.e="hello"
+# obj.new1()
