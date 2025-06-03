@@ -46,12 +46,12 @@
 
  ############### Table from 1 to n ######
 
-# def Tablenew(n):
-#     for i in range(2,n+1):
-#         yield i
-# x=int(input("Enter no :"))
-# y=Tablenew(x)
-# print(len(list(y)))
-# z=next(y)
-# for i in range(1,11):
-#     print(z*i , end=" ")
+def Tablenew(n):
+    for i in range(2,n+1):
+        yield i
+x=int(input("Enter no :"))
+y=Tablenew(x)
+print(len(list(y)))
+z=next(y)
+for i in range(1,11):
+    print(z*i , end=" ")
