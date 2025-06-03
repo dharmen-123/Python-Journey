@@ -36,12 +36,12 @@
 # print(id(obj))
 # obj.new()
 
+   #Decorator Question
+# def outer(mainf):
+#     def inner():
+#         print("From inner")
+#     return inner
 
-def outer(mainf):
-    def inner():
-        print("From inner")
-    return inner
-
-x=outer(10)
-print(id(x))
-print(id(outer))
+# x=outer(10)
+# print(id(x))
+# print(id(outer))
