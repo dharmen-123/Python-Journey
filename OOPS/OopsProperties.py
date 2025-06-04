@@ -5,7 +5,7 @@
 ##   3 abstraction
 ##   4 Encapsulation
 
-# Encapsulation is defined as the wrrapup variables and method into a single unit
+# Encapsulation is defined as the wrapup variables and method into a single unit
 
 # class Python:
 #     school= "SWS"
