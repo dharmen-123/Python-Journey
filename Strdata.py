@@ -30,4 +30,6 @@ lst.pop(0)
 lst.append((10 ,20 ,30 ,40))
 print(lst[0])
 
+num=98769769
+print(len(num))
 # set and frozen set are the Unordered collection
