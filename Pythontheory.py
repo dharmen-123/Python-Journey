@@ -2,6 +2,9 @@
 # Code reusability 
 # print(10,20,sep=",")
 
+# Variable is a container that holds the reference of objects
+# that why python is called call by reference
+# Literals holds the object values 
 
 class Addtocart:
     def __init__(self):
