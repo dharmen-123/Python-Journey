@@ -19,6 +19,7 @@ item_qua=cart['quantity'][item_index]
 print(item_qua)
 
 
-a=(999*89)/100
-
-print(int(a))
+a=int((999*77)/100)
+sp=int(999-a)
+print(a)
+print(sp)
