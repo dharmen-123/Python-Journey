@@ -19,7 +19,7 @@ item_qua=cart['quantity'][item_index]
 print(item_qua)
 
 
-a=int((999*77)/100)
-sp=int(999-a)
+a=int((499*77)/100)
+sp=int(499-a)
 print(a)
 print(sp)
