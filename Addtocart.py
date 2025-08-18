@@ -17,6 +17,7 @@ if 3 not in cart['items']:
     print("This item is not present")
 else :
     print("This is present")
+print("Items length",len(cart['items']))
 item_index=cart['items'].index(3)
 print(item_index)
 item_qua=cart['quantity'][item_index]
