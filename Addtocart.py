@@ -19,11 +19,13 @@ print(cart)
 #     print("This is present")
 # print("Items length",len(cart['items']))
 item_index=cart['items'].index(3)
+cart['items'].remove(3)
 print(item_index)
-cart['quantity'][item_index]=6
+# cart['quantity'][item_index]=6
 item_qua=cart['quantity'][item_index]
 print(item_qua)
-
+cart['quantity'].remove(item_qua)
+print(cart)
 
 # a=int((499*77)/100)
 # sp=int(499-a)
