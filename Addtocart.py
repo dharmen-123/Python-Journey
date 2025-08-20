@@ -21,7 +21,7 @@ print(cart)
 item_index=cart['items'].index(3)
 cart['items'].remove(3)
 print(item_index)
-# cart['quantity'][item_index]=6
+cart['quantity'][item_index]+=1
 item_qua=cart['quantity'][item_index]
 print(item_qua)
 cart['quantity'].remove(item_qua)
