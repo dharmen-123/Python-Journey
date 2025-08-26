@@ -13,11 +13,7 @@ cart['items'].append(3)
 cart['quantity'].append(1)
 cart['quantity'].append(4)
 print(cart)
-# if 3 not in cart['items']:
-#     print("This item is not present")
-# else :
-#     print("This is present")
-# print("Items length",len(cart['items']))
+
 item_index=cart['items'].index(3)
 cart['items'].remove(3)
 print(item_index)
