@@ -27,7 +27,3 @@ print(item_qua)
 cart['quantity'].remove(item_qua)
 print(cart)
 
-# a=int((499*77)/100)
-# sp=int(499-a)
-# print(a)
-# print(sp)
