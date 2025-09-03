@@ -1,3 +1,9 @@
  Full stack Projects
 
+ Landing Pages
+ Login
+ Registration
+ User Account or Dashboard
+ Admin Panel
+ Item adds Dynamic
  
