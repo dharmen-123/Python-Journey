@@ -21,5 +21,6 @@ cart['quantity'][item_index]+=1
 item_qua=cart['quantity'][item_index]
 print(item_qua)
 cart['quantity'].remove(item_qua)
+cart['items'].clear()
 print(cart)
 
