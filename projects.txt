@@ -6,4 +6,13 @@
  User Account or Dashboard
  Admin Panel
  Item adds Dynamic
- 
+ Subscription for required sites
+ Cloudnary Data
+ Inventry management for ecommerce
+ Validation
+ Authentication & Permision
+ APIs for connecting frontend & Backend
+ Models , Relations 
+ Deployment , Hosting
+
+
