@@ -333,3 +333,6 @@
 # print(f"Circumference: {C.circumference()}")
 # print(f"Area: {C.area()}")
 
+A=[1,2,3]
+B=[4,5,6]
+A.append(B)
