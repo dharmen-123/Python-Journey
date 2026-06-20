@@ -152,3 +152,6 @@ str , int , float , complex, list , tuple , range , set , frozenset , dict , boo
 # z=frozenset({'A','C','T','C','G'})
 # print(z)
 # print(type(z))
+
+            # PYTHON STRINGS #
+#  string in python are declared by single and double qoutes ,marks
