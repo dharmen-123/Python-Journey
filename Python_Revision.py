@@ -204,3 +204,13 @@ str , int , float , complex, list , tuple , range , set , frozenset , dict , boo
 # print("Inte" in a)
 
                 # String Operation
+# a="  hello WORLD "
+# print(a.upper())
+# print(a.capitalize())
+# print(a.casefold())
+# print(a.lower())
+# print(a.strip())
+# print(a.replace("h",'c'))
+# print(a.split())
+flat=294
+print(f"my subject is Computer Network")
