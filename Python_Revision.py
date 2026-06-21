@@ -152,6 +152,55 @@ str , int , float , complex, list , tuple , range , set , frozenset , dict , boo
 # z=frozenset({'A','C','T','C','G'})
 # print(z)
 # print(type(z))
+# x="Hello Dev"   #str
+# print(x , type(x)) 
+# x=23            #int
+# print(x , type(x)) 
+# x=20.34         #float
+# print(x , type(x)) 
+# x=8+1j          #complex
+# print(x , type(x)) 
+# x=["apple",'C',38]      #List
+# print(x , type(x)) 
+# x=('set', 38, "a",'Y')
+# print(x , type(x)) 
+# x=range(4)      #Range
+# print(x , type(x)) 
+# x={'name':"Dharmendra",'age':21}
+# print(x , type(x)) 
+# x=True
+# print(x , type(x)) 
+# x=bytearray(5)
+# print(x , type(x))
+# x=memoryview(bytes(3))
+# print(x , type(x)) 
+# x=None
+# print(x , type(x)) 
+
+# import random
+# print(random.randrange(100,1000))
 
             # PYTHON STRINGS #
 #  string in python are declared by single and double qoutes ,marks
+# print('Jai shree ram')
+# print("Har har mahadev")
+# print("""Jai Mahakal""")
+# print("He is called 'Ram'")
+# print("Ram is \"Playing\" football")     #\ Escape character
+# a=("My name is Ravi Prakash Tiwari"
+#     "and I am currently doing the Btech"
+#    "in the specialization of AIML"
+#    "I am in my 6 th sem now with 8.4 CGPA")
+# print(a)
+
+        # STRING are Array
+# a="Machine Learning"
+# print(a[2])
+# print(a[:10:2])
+
+# a="Artificial Intelligence"
+# for x in a:
+#      print(x,end=" ")
+# print("Inte" in a)
+
+                # String Operation
