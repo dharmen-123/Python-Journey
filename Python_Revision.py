@@ -212,5 +212,47 @@ str , int , float , complex, list , tuple , range , set , frozenset , dict , boo
 # print(a.strip())
 # print(a.replace("h",'c'))
 # print(a.split())
-flat=294
-print(f"my subject is Computer Network")
+# flat=294
+# print(f"my subject is Computer Network")
+
+                # Strings are Arrays
+# z="Database Management"
+# print(z[::-1])
+# z="The best things in life are happiness"
+# print("free" not in z)
+# print(z[-2::-1])
+# a="Ram"
+# b="Shyam"
+# print(a+b)
+
+        # F- STRINGS
+# age=21
+# print(f"My name is Raj , I am {age} year old")
+# price=34
+# print(f"The price is {price:.2f} dollars")
+
+        # Escape Characters
+# print("We are Celebrating the \"festival Diwali\" at this time ")
+
+        # STRING METHODS
+a="the army man"
+# print(a.capitalize())
+# print(a.casefold())
+# print(a.center(19,'-'))
+# print(a.count('a'))
+# txt = "My name is Ståle"
+# x = txt.encode()
+# print(x)
+# print(a.endswith('n'))
+# txt = "H\te\tl\tl\to"
+# x =  txt.expandtabs(4)
+# print(x)
+# print(a.find('a'))
+      #  String Format
+# txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+# txt2 = "My name is {0}, I'm {1}".format("John",36)
+# txt3 = "My name is {}, I'm {}".format("John",36)
+# print(txt1)
+myvar = {"name" : "Jane", "age" : 36}
+txt = "Happy birthday {name} you are now on level {age}!"
+print(txt.format_map(myvar))
